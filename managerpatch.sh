@@ -1,0 +1,4 @@
+rm -rf KernelSU-Next
+echo "🔧 Setting up KernelSU-Next"
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
+echo "✅ KernelSU-Next setup completed"
